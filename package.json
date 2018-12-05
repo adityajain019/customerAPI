@@ -1,0 +1,25 @@
+{
+  "name": "customer_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.14",
+    "mongoose-timestamp": "^0.6.0",
+    "restify": "^7.2.3",
+    "restify-errors": "^6.1.1",
+    "restify-jwt-community": "^1.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
